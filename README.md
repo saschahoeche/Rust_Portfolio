@@ -22,5 +22,5 @@
 	A simple App for direct communication
 
 ##8. World Simulation
-	An Application that simulate complaex worlds with different sets
+	An Application that simulate complex worlds with different sets
 	of initial data
