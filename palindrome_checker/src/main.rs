@@ -31,7 +31,7 @@ fn get_user_input() -> String {
         Err(error) => panic!("Something went wrong, try again. {}", error),
     };
 
-    if user_input.trim().len() >= 50 {
+    if check_input_length(&user_input) {
         println!(
             "You entered {} characters, that is too long, try something shorter.",
             user_input.len()
@@ -41,4 +41,14 @@ fn get_user_input() -> String {
     }
 
     user_input
+}
+
+/// Check String for length of less than
+/// or equal to 50
+fn check_input_length(input_string: &String) -> bool {
+    if input_string.trim().len() >= 50 {
+        true
+    } else {
+        false
+    }
 }
