@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["check_input_length","Check String for length of less than or equal to 50"],["get_user_input","Read user input into String Verify length Return String"],["main",""]]});
